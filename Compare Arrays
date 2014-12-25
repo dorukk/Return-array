@@ -1,0 +1,12 @@
+ static string comparearray(string[] array1, string[] array2)
+        {
+            string returnsencente = "";
+            if (array1.Length > array2.Length)
+            {
+                returnsencente = "First array is bigger";
+            }
+            else if (array1.Length < array2.Length)
+            {
+                returnsencente = "Second array is bigger";
+            }
+            return returnsencente;
