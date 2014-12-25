@@ -1,0 +1,6 @@
+ static int smallest(int [] array)
+        {
+            Array.Sort(array);
+
+            return dizi[0];
+        }
