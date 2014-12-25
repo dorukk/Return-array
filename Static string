@@ -1,0 +1,14 @@
+ static void Main(string[] args)
+        {
+            string[] data = { "Drake", "Jay", "D-12", "The Game" };
+            writeonscreen(data);
+            Console.ReadKey();
+
+        }
+
+        static void writeonscreen(string[] sentences)
+        {
+            foreach (string go in sentences)
+            {
+                Console.WriteLine(go);
+            }
