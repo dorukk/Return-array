@@ -1,0 +1,8 @@
+static int addarrays(int[] numbers)
+        {
+            int toplam = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                toplam = toplam + numbers[i];
+            }
+            return toplam;    
